@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+/* .nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+} */
+ .nav-bar{
+     color: white;
+    
+    font-size: 50px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 100px;
+    display: flex;
+    justify-content: space-evenly; 
+    float: right;
+    
+   
+   
+} 
+
+
+.logo {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    margin-top: -300px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.nav-bar a {
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+.body-text {
+    color: white;
+    margin-top: 80px;
+    font-size: 65px;
+    text-align: left;
+    margin-left: 10px;
+    font-style: bold;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.github {
+    width: 40px;
+    height: 40px;
+
+}
+
+.linkedin {
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.icons {
+    margin-top: 250px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-txt {
+    color: red;
+}
+
+.btn {
+    margin-top: -200px;
+    margin-left: 40px;
+}
+
+.downld {
+    border: none;
+    color: white;
+    text-shadow: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: transparent;
+    border: solid white;
+    border-radius: 100px;
+    box-shadow: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100px;
+}
+.downld:hover{
+    background: white;
+    color: black;
+   
+}

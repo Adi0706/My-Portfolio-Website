@@ -1,0 +1,108 @@
+body {
+
+    margin: 0px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-details {
+    height: 650px;
+    margin-top: 50px;
+    width: 1200px;
+    background-color: white;
+    border: solid none;
+    box-shadow: 4px 5px 30px white;
+
+}
+
+.body-main {
+    width: 30%;
+    height: 650px;
+    background-color: #8dd3e4;
+
+}
+
+/* #D6EAEF */
+.about-me {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 2px;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.image {
+
+    width: 700px;
+    height: 400px;
+    display: flex;
+    float: left;
+    margin-top: 80px;
+    margin-left: 150px
+}
+
+.my-img {
+    width: 350px;
+    height: 350px;
+    border: solid none;
+    border-radius: 200px;
+
+}
+
+.about-text {
+    width: 700px;
+    height: 300px;
+
+}
+
+.write {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+.icons {
+    margin-top: -200px;
+    width: 150px;
+    background-color:none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 800px;
+   
+}
+
+.github {
+    height: 35px;
+    width: 35px;
+  
+}
+
+.linkedin {
+    height: 35px;
+    width: 35px;
+
+}
+.home-icon
+{
+    margin-top: 650px;
+    width: 100px;
+    background-color:gren;
+    display: flex;
+  margin-left: -50px;
+    float: right;
+ 
+}
+.home-btn{
+    height: 45px;
+    width: 45px;
+}

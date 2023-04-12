@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT ME</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/Landing Page/favicon.png">
+</head>
+<body>
+    <header class="top-txt"><h1>CONTACT ME</h1></header>
+    <main class="body-details">
+        <section class="form">
+            <div class="container">
+                <form onsubmit="sendEmail(); reset(); return false">
+                   <span id="getintouch"> <h3>GET IN TOUCH</h3> </span>
+                   <input type="text" id="name" placeholder="Your name" required>
+                   <input type="email" id="email" placeholder="Email Id" required>
+                   <input type="text" id="phone" placeholder="Contact number" required>
+                   <textarea id="message" rows="4" placeholder="How can I help you ? "></textarea>
+                   <button class="send-btn" type="submit">SEND</button>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="logo"><a href="/Landing Page/index.html" id="home-logo">
+        <img class="home-logo" src="/contact.html/icons8-home-page-32.png" alt="" class="logo">
+    </a></footer>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
